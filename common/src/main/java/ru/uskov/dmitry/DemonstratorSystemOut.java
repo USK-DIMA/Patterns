@@ -20,6 +20,9 @@ abstract public class DemonstratorSystemOut {
         this.name = name;
     }
 
+    /**
+     * Логика выполнения демонстрации. Переопределяется в наследниках
+     */
     protected abstract void run();
 
     public void start(){

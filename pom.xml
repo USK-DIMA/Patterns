@@ -12,6 +12,7 @@
     <modules>
         <module>common</module>
         <module>lab1</module>
+        <module>lab2</module>
     </modules>
 
     <properties>
@@ -19,16 +20,23 @@
     </properties>
 
     <dependencies>
+
         <dependency>
-        <groupId>javax.inject</groupId>
-        <artifactId>javax.inject</artifactId>
-        <version>1</version>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
         </dependency>
 
         <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se</artifactId>
             <version>${version.weld}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.uskov.dmitry</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
@@ -45,6 +53,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

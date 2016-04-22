@@ -14,14 +14,25 @@
         <module>lab1</module>
     </modules>
 
+    <properties>
+        <version.weld>2.0.1.Final</version.weld>
+    </properties>
+
     <dependencies>
         <dependency>
         <groupId>javax.inject</groupId>
         <artifactId>javax.inject</artifactId>
         <version>1</version>
-    </dependency>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.weld.se</groupId>
+            <artifactId>weld-se</artifactId>
+            <version>${version.weld}</version>
+        </dependency>
 
     </dependencies>
+
     <build>
         <plugins>
             <plugin>

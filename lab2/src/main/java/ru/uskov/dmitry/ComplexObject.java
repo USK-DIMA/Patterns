@@ -42,35 +42,35 @@ public class ComplexObject {
          * Все необходимая информация для создания сложного оъекта.
          * т.к. у нас примитивный пример, поля в билдере совпадают с полями в классе, объект которого будем создавать.
          */
-        private String filed1;
+        private String field1;
 
-        private String filed2;
+        private String field2;
 
-        private String filed3;
+        private String field3;
 
-        private String filed4;
+        private String field4;
 
         /**
          * Ниже в методы небходимо передавать информацию, необходимую для создания объекта (можно вызывать не все методы.)
          * @return ссылка на этот же Builder (см пример.)
          */
-        public Builder buildFiled1(String filed1) {
-            this.filed1 = filed1;
+        public Builder field1(String field1) {
+            this.field1 = field1;
             return this;
         }
 
-        public Builder buildFiled2(String filed2) {
-            this.filed2 = filed2;
+        public Builder field2(String field2) {
+            this.field2 = field2;
             return this;
         }
 
-        public Builder buildFiled3(String filed3) {
-            this.filed3 = filed3;
+        public Builder field3(String field3) {
+            this.field3 = field3;
             return this;
         }
 
-        public Builder buildFiled4(String filed4) {
-            this.filed4 = filed4;
+        public Builder field4(String field4) {
+            this.field4 = field4;
             return this;
         }
 
@@ -86,7 +86,7 @@ public class ComplexObject {
          */
         public ComplexObject build(){
             //TODO логика создания сложного объекта на основании полученных данных.
-            return new ComplexObject(filed1, filed2, filed3, filed4);
+            return new ComplexObject(field1, field2, field3, field4);
         }
     }
 }

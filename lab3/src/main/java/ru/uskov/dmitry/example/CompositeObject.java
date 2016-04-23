@@ -1,4 +1,4 @@
-package ru.uskov.dmitry;
+package ru.uskov.dmitry.example;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.Iterator;
 /**
  * Шаблон для реализации древовидной структуры
  */
-public class CompositeObject {
+public class CompositeObject<T> {
 
     public static final String prefix = "-";
 
@@ -21,7 +21,7 @@ public class CompositeObject {
 
     private Class objectClass;
 
-    private Object object;
+    private T object;
 
     private Collection<CompositeObject> childs = new ArrayList<>();//пока конкретная реализация. Потом надо предоставить выбор пользователю
 
@@ -74,25 +74,27 @@ public class CompositeObject {
         return lvl;
     }
 
-    public void setLvl(int lvl) {
-        this.lvl = lvl;
-    }
-
     public Class getObjectClass() {
         return objectClass;
     }
 
-    public void setObjectClass(Class objectClass) {
-        this.objectClass = objectClass;
-    }
-
-    public Object getObject() {
+    public T getObject() {
         return object;
     }
 
-    public void setObject(Object object) {
-        this.object = object;
+    public void deletChildsByTag(){
+        //TODO
     }
+
+    public void deletAllChildsByTag(){
+        //TODO
+    }
+
+    public Collection<CompositeObject> getAllObjects(){
+        // TODO: 23.04.2016
+        return null;
+    }
+
 
     private void printTagTree(PrintStream out, int indent){
         for(int i=0; i<indent; i++){
@@ -122,7 +124,7 @@ public class CompositeObject {
         }
     }
 
-    private CompositeObject(int lvl, Class objectClass, Object object, String tag, String description) {
+    private CompositeObject(int lvl, Class objectClass, T object, String tag, String description) {
         this.lvl = lvl;
         this.objectClass = objectClass;
         this.object = object;
@@ -130,15 +132,15 @@ public class CompositeObject {
         this.description = description;
     }
 
-    public static class Builder{
+    public static class Builder<T>{
 
-        private Object object;
+        private T object;
 
         private String tag;
 
         private String description;
 
-        public Builder object(Object object) {
+        public Builder object(T object) {
             this.object = object;
             return this;
         }
@@ -160,6 +162,5 @@ public class CompositeObject {
             return new CompositeObject(0, object.getClass(), object, tag, description);
         }
     }
-
 
 }

@@ -9,13 +9,13 @@ public class ComplexObject {
     /**
     Поля класса
      */
-    private String filed1;
+    private String field1;
 
-    private String filed2;
+    private String field2;
 
-    private String filed3;
+    private String field3;
 
-    private String filed4;
+    private String field4;
 
     //......
 
@@ -23,11 +23,11 @@ public class ComplexObject {
     /**
      * Конструктор будет доступен только билдеру.
      */
-    private ComplexObject(String filed1, String filed2, String filed3, String filed4) {
-        this.filed1 = filed1;
-        this.filed2 = filed2;
-        this.filed3 = filed3;
-        this.filed4 = filed4;
+    private ComplexObject(String field1, String field2, String field3, String field4) {
+        this.field1 = field1;
+        this.field2 = field2;
+        this.field3 = field3;
+        this.field4 = field4;
     }
 
     /**

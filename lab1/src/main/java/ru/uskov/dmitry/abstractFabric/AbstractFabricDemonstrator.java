@@ -5,6 +5,8 @@ import ru.uskov.dmitry.abstractFabric.annotations.DriverType;
 import ru.uskov.dmitry.abstractFabric.annotations.FabricType;
 import ru.uskov.dmitry.abstractFabric.exception.IncorrectDriverException;
 import ru.uskov.dmitry.abstractFabric.fabrics.BoardFabric;
+import ru.uskov.dmitry.abstractFabric.fabrics.BusBoardFabric;
+import ru.uskov.dmitry.abstractFabric.fabrics.TaxiBoardFabric;
 import ru.uskov.dmitry.abstractFabric.model.board.Board;
 import ru.uskov.dmitry.abstractFabric.model.common.Passenger;
 import ru.uskov.dmitry.abstractFabric.model.driver.Driver;
@@ -16,10 +18,10 @@ public class AbstractFabricDemonstrator extends DemonstratorSystemOut{
 
     public static final String DEMONSTRATION_NAME = "AbstractFabricDemonstrator";
 
-    @Inject @FabricType(type = "taxi")
+    //@Inject @FabricType(type = "taxi")
     private BoardFabric boardFabric;
 
-    @Inject @DriverType(type="taxi")
+    //@Inject @DriverType(type="taxi")
     private Driver driver;
 
     public AbstractFabricDemonstrator() {
@@ -28,7 +30,7 @@ public class AbstractFabricDemonstrator extends DemonstratorSystemOut{
 
     @Override
     protected void run() {
-        Passenger[] passengers = new Passenger[5];
+    /*    Passenger[] passengers = new Passenger[5];
 
         for (int i = 0; i < passengers.length; i++){
             passengers[i]= new Passenger();
@@ -47,6 +49,21 @@ public class AbstractFabricDemonstrator extends DemonstratorSystemOut{
         System.out.println("Добавлено пассажиров: "+ board.addPassengers(passengers));
         System.out.println(board.isEmpty());
         System.out.println(board.driverIsHere());
-        System.out.println(board.readyToRun());
+        System.out.println(board.readyToRun());*/
+
+        /*BoardFabric boardFabric;
+        Driver driver;
+        Board board;
+
+        gogo(boardFabric, driver);
+
+        boardFabric = new TaxiBoardFabric();
+        System.out.println(boardFabric.getClass().getSimpleName());
+        board = boardFabric.createBoard();
+*/
     }
+
+
+
+
 }

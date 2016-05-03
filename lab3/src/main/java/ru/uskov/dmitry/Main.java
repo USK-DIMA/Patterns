@@ -10,9 +10,6 @@ import ru.uskov.dmitry.model.persons.AircraftStewardess;
 
 public class Main {
 
-    //TODO реализовать проверку с грузом
-    //TODO Объединить всю конфигурацию в одно место
-
     public static void main(String[] args) {
 
         Aircraft aircraft = new Aircraft();

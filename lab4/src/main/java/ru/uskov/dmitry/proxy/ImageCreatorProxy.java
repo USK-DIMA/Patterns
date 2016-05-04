@@ -1,4 +1,6 @@
-package ru.uskov.dmitry;
+package ru.uskov.dmitry.proxy;
+
+import ru.uskov.dmitry.view.MyJPanel;
 
 import java.awt.image.BufferedImage;
 

@@ -1,4 +1,4 @@
-package ru.uskov.dmitry;
+package ru.uskov.dmitry.view;
 
 import java.awt.*;
 

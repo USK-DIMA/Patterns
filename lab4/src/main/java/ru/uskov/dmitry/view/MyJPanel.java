@@ -1,4 +1,7 @@
-package ru.uskov.dmitry;
+package ru.uskov.dmitry.view;
+
+import ru.uskov.dmitry.proxy.ImageCreator;
+import ru.uskov.dmitry.proxy.ImageCreatorProxy;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package ru.uskov.dmitry;
+package ru.uskov.dmitry.view;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +14,7 @@ public class MainForm {
     private BufferedImage image;
     private Graphics2D graphics2D;
 
-    MainForm(){
+    public MainForm(){
         JFrame frame = new JFrame("MainForm");
         myPanel = new MyJPanel();
         frame.setContentPane(myPanel);
@@ -23,7 +23,4 @@ public class MainForm {
         frame.setVisible(true);
     }
 
-    public static void main(String[] args) {
-        new MainForm();
-    }
 }

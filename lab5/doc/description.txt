@@ -1,0 +1,19 @@
+Описание языка  v1.
+
+expression::= <setVariable> | <setFunction> | <sequence> | <repetition> | <assign>
+
+
+setVariable::= переменная <descVariable>;
+setFunction::= функция <type> <functionName>{<expression>}
+sequence::=<expression>;<expression>
+assign::= <variable>:=<calculator>
+
+type ::= текст, лог, цел, действ
+variable ::= [а-я]
+descVariable::=<type> <variable>
+descVariables::= <descVariable>, <descVariable>
+functionName::=[a-я](<type> <variable> | <descVariables>)
+
+repetition::= пока(<variable>|<callFunction>){ <expression> }
+
+condition::=если(<variable>|<callFunction> <character> <variable>|<callFunction>) { <expression> } иначе { <expression> }

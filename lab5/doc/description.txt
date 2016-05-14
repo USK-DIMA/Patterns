@@ -1,10 +1,11 @@
 Описание языка  v1.
 
-expression::= <setVariable> | <setFunction> | <sequence> | <repetition> | <assign>
+expression::= <setVariable> | <setFunction> | <sequence> | <repetition> | <assign>;
 
 
 setVariable::= переменная <descVariable>;
-setFunction::= функция <type> <functionName>{<expression>}
+setFunction::= функция <type> <functionName>{functionBody}
+functionBody::=<expression>
 sequence::=<expression>;<expression>
 assign::= <variable>:=<calculator>
 

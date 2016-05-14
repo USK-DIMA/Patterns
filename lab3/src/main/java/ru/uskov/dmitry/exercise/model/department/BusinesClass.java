@@ -1,7 +1,7 @@
-package ru.uskov.dmitry.model.department;
+package ru.uskov.dmitry.exercise.model.department;
 
-import ru.uskov.dmitry.model.common.AircraftComposite;
-import ru.uskov.dmitry.model.common.AircraftItemType;
+import ru.uskov.dmitry.exercise.model.common.AircraftComponent;
+import ru.uskov.dmitry.exercise.model.common.AircraftItemType;
 
 public class BusinesClass extends AircraftDepartment {
 
@@ -18,16 +18,12 @@ public class BusinesClass extends AircraftDepartment {
     }
 
     @Override
-    protected boolean isReadySpecial() {
+    protected boolean isValidChildSpecialDepartament(AircraftComponent o) {
         return true;
     }
 
-
     @Override
-    protected void initChildValidationDepartament() { }
-
-    @Override
-    protected boolean isValidChildSpecialDepartament(AircraftComposite o) {
+    protected boolean isReady() {
         return true;
     }
 }

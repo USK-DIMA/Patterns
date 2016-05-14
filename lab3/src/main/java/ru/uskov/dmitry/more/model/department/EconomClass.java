@@ -1,7 +1,7 @@
-package ru.uskov.dmitry.model.department;
+package ru.uskov.dmitry.more.model.department;
 
-import ru.uskov.dmitry.model.common.AircraftComposite;
-import ru.uskov.dmitry.model.common.AircraftItemType;
+import ru.uskov.dmitry.more.model.common.AircraftComposite;
+import ru.uskov.dmitry.more.model.common.AircraftItemType;
 
 public class EconomClass extends AircraftDepartment {
 

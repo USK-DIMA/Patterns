@@ -1,9 +1,9 @@
-package ru.uskov.dmitry.model.department;
+package ru.uskov.dmitry.more.model.department;
 
-import ru.uskov.dmitry.model.common.AircraftComposite;
-import ru.uskov.dmitry.model.common.AircraftItemType;
-import ru.uskov.dmitry.model.common.AircraftItemsCountValidation;
-import ru.uskov.dmitry.model.persons.AircraftPassenger;
+import ru.uskov.dmitry.more.model.common.AircraftComposite;
+import ru.uskov.dmitry.more.model.common.AircraftItemType;
+import ru.uskov.dmitry.more.model.common.AircraftItemsCountValidation;
+import ru.uskov.dmitry.more.model.persons.AircraftPassenger;
 
 abstract public class AircraftDepartment extends AircraftComposite{
 

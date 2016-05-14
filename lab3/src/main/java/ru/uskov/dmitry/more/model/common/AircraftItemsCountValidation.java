@@ -1,4 +1,4 @@
-package ru.uskov.dmitry.model.common;
+package ru.uskov.dmitry.more.model.common;
 
 
 /**

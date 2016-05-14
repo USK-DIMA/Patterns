@@ -1,9 +1,9 @@
-package ru.uskov.dmitry.model;
+package ru.uskov.dmitry.more.model;
 
-import ru.uskov.dmitry.model.common.AircraftComposite;
-import ru.uskov.dmitry.model.common.AircraftItemType;
-import ru.uskov.dmitry.model.common.AircraftItemsCountValidation;
-import ru.uskov.dmitry.model.persons.AircraftPassenger;
+import ru.uskov.dmitry.more.model.common.AircraftComposite;
+import ru.uskov.dmitry.more.model.common.AircraftItemType;
+import ru.uskov.dmitry.more.model.common.AircraftItemsCountValidation;
+import ru.uskov.dmitry.more.model.persons.AircraftPassenger;
 
 
 import java.io.PrintStream;

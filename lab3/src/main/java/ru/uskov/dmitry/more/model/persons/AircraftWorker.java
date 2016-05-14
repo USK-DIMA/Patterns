@@ -1,6 +1,6 @@
-package ru.uskov.dmitry.model.persons;
+package ru.uskov.dmitry.more.model.persons;
 
-import ru.uskov.dmitry.model.common.AircraftItemType;
+import ru.uskov.dmitry.more.model.common.AircraftItemType;
 
 /**
  * Created by Dmitry on 23.04.2016.

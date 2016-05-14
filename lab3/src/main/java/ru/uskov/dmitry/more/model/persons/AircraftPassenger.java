@@ -1,7 +1,7 @@
-package ru.uskov.dmitry.model.persons;
+package ru.uskov.dmitry.more.model.persons;
 
-import ru.uskov.dmitry.model.common.AircraftComposite;
-import ru.uskov.dmitry.model.common.AircraftItemType;
+import ru.uskov.dmitry.more.model.common.AircraftComposite;
+import ru.uskov.dmitry.more.model.common.AircraftItemType;
 
 public class AircraftPassenger extends AircraftPerson {
 

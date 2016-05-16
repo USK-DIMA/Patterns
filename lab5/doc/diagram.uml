@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="851.0" y="111.0">ru.uskov.dmitry.interpreter.SentenceExpression</node>
+    <node x="247.99999999999994" y="155.5">ru.uskov.dmitry.interpreter.SpaceAfterBeforePunctuationMark</node>
+    <node x="553.75" y="0.0">ru.uskov.dmitry.interpreter.Expression</node>
+    <node x="495.99999999999994" y="133.0">ru.uskov.dmitry.interpreter.DashExpression</node>
+    <node x="0.0" y="155.5">ru.uskov.dmitry.interpreter.QuotesExpression</node>
+    <node x="1147.0" y="144.0">ru.uskov.dmitry.interpreter.SpaceExpression</node>
+    <node x="682.0" y="133.0">ru.uskov.dmitry.interpreter.ParagraphExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.uskov.dmitry.interpreter.ParagraphExpression" target="ru.uskov.dmitry.interpreter.Expression">
+      <point x="0.0" y="-48.0" />
+      <point x="756.5" y="91.0" />
+      <point x="686.75" y="91.0" />
+      <point x="19.0" y="25.5" />
+    </edge>
+    <edge source="ru.uskov.dmitry.interpreter.SpaceAfterBeforePunctuationMark" target="ru.uskov.dmitry.interpreter.Expression">
+      <point x="0.0" y="-25.5" />
+      <point x="361.99999999999994" y="81.0" />
+      <point x="610.75" y="81.0" />
+      <point x="-57.0" y="25.5" />
+    </edge>
+    <edge source="ru.uskov.dmitry.interpreter.SpaceExpression" target="ru.uskov.dmitry.interpreter.Expression">
+      <point x="0.0" y="-37.0" />
+      <point x="1214.0" y="71.0" />
+      <point x="762.75" y="71.0" />
+      <point x="95.0" y="25.5" />
+    </edge>
+    <edge source="ru.uskov.dmitry.interpreter.DashExpression" target="ru.uskov.dmitry.interpreter.Expression">
+      <point x="0.0" y="-48.0" />
+      <point x="579.0" y="91.0" />
+      <point x="648.75" y="91.0" />
+      <point x="-19.0" y="25.5" />
+    </edge>
+    <edge source="ru.uskov.dmitry.interpreter.QuotesExpression" target="ru.uskov.dmitry.interpreter.Expression">
+      <point x="0.0" y="-25.5" />
+      <point x="114.0" y="71.0" />
+      <point x="572.75" y="71.0" />
+      <point x="-95.0" y="25.5" />
+    </edge>
+    <edge source="ru.uskov.dmitry.interpreter.SentenceExpression" target="ru.uskov.dmitry.interpreter.Expression">
+      <point x="0.0" y="-70.0" />
+      <point x="989.0" y="81.0" />
+      <point x="724.75" y="81.0" />
+      <point x="57.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="831.1785714285714" y="111.21428571428571" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

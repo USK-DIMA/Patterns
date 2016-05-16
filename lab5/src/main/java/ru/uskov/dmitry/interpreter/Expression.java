@@ -2,13 +2,8 @@ package ru.uskov.dmitry.interpreter;
 
 import java.util.ArrayList;
 
-public class Expression {
+public interface Expression {
     
-    init(){
 
-    }
-
-    void interpert(InterpreterContext context){
-
-    };
+    void interpert(InterpreterContext context);
 }

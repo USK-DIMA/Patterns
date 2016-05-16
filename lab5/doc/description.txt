@@ -18,3 +18,17 @@ functionName::=[a-я](<type> <variable> | <descVariables>)
 repetition::= пока(<variable>|<callFunction>){ <expression> }
 
 condition::=если(<variable>|<callFunction> <character> <variable>|<callFunction>) { <expression> } иначе { <expression> }
+
+
+
+Абзац (в начале 3 пробела, п конце один перенос)
+    предложение (в конце точка)
+        Слово (разделение пробелами)
+
+
+правка табуляции
+правка множественного переноса
+правка пробелов
+правка ковычек
+правка дефиса
+            правка пробелов около знаков препинания

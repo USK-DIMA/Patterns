@@ -1,8 +1,5 @@
 package ru.uskov.dmitry.interpreter;
 
-/**
- * Created by Dmitry on 26.04.2016.
- */
 public class DashExpression implements Expression {
 
 

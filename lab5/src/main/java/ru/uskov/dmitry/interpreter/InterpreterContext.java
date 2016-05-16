@@ -14,6 +14,14 @@ public class InterpreterContext {
         output="";
     }
 
+    /**
+     * Добавляет строку в конец параметра output
+     * @param output строка, которая будет добавляться
+     */
+    public void addOutput(String output){
+        this.output+=output;
+    }
+
     public String getInput() {
         return input;
     }

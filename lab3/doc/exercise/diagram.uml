@@ -8,7 +8,7 @@
     <node x="507.1428571428571" y="545.4285714285713">ru.uskov.dmitry.exercise.model.persons.AircraftPilot</node>
     <node x="1865.0" y="642.0">ru.uskov.dmitry.exercise.model.Aircraft</node>
     <node x="-108.41666666666691" y="501.25793650793685">ru.uskov.dmitry.exercise.model.persons.AircraftPassenger</node>
-    <node x="1153.75" y="-49.999999999999986">ru.uskov.dmitry.exercise.model.common.AircraftComponent</node>
+    <node x="1161.931818181818" y="-55.45454545454544">ru.uskov.dmitry.exercise.model.common.AircraftComponent</node>
     <node x="611.0" y="675.0">ru.uskov.dmitry.exercise.model.department.BusinesClass</node>
     <node x="1029.0" y="675.0">ru.uskov.dmitry.exercise.model.department.EconomClass</node>
     <node x="250.64285714285717" y="544.9285714285713">ru.uskov.dmitry.exercise.model.persons.AircraftStewardess</node>
@@ -63,8 +63,10 @@
       <point x="-151.875" y="146.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="590.7380952380953" y="504.72619047619094" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.1" x="1231.3971861471864" y="109.57539682539685" />
+  <SelectedNodes>
+    <node>ru.uskov.dmitry.exercise.model.common.AircraftComponent</node>
+  </SelectedNodes>
   <Categories>
     <Category>Methods</Category>
   </Categories>
